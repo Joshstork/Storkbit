@@ -42,7 +42,7 @@ Parameters:
     Type: AWS::IAM::Role
     Properties:
       Policies:
-        - PolicyName: AllwoEC2Actions
+        - PolicyName: AllowEC2Actions
           PolicyDocument:
             Version: 2012-10-17
             Statement:
