@@ -17,6 +17,7 @@ Parameters:
     Type: String
     Description: The name of the stack with the Infrastructure resources
 
+Resources:
   ServerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
