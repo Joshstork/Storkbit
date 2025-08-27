@@ -23,7 +23,7 @@ Resources:
     Properties:
       GroupDescription: EC2 Security Group
       VpcId:
-        Fn::ImportValue: !Sub ${InfrastructureStackName}
+        Fn::ImportValue: !Sub ${InfrastructureStackName}-vpcid
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 22
