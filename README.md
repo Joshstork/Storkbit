@@ -5,6 +5,8 @@ A React App for Stork Soft Business
 
 To install 
 
+Taken from https://tailscale.com/kb/1166/vscode-ipad
+
 `curl -fsSL https://tailscale.com/install.sh | sh`
 
 Installation complete! Log in to start using Tailscale by running:
@@ -35,3 +37,5 @@ sudo systemctl restart code-server@$USER
 The service is now listening, but only on the Tailscale IP address.
 On your iPad, ensure you've connected to your tailnet and that your server appears in the Tailscale application's list of devices.
 Open a browser and access your server by visiting http://100.x.y.z:8080/, using your IP address.
+
+ip-10-0-0-161.tail839500.ts.net
