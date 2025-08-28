@@ -8,7 +8,7 @@ Parameters:
   InstanceType:
     Type: String
     Description: Type of instance to use for EC2 runners.
-    Default: T4g.small
+    Default: t4g.small
   AvailabilityZone:
     Type: String
     Description: The availability zone to run in
@@ -104,3 +104,4 @@ Resources:
               echo -e "/dev/xvdf /vscode-data xfs  defaults,nofail  0  2" >> /etc/fstab
               curl -Lk 'https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64' --output vscode_cli.tar.gz
               tar -xf vscode_cli.tar.gz
+              curl -fsSL https://tailscale.com/install.sh
