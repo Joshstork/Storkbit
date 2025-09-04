@@ -4,13 +4,15 @@
   "private": true,
   "homepage": "https://joshstork.github.io",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.8",
     "next": "15.5.2",

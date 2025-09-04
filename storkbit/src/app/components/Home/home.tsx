@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import "./home.css"
 
 
-const  Home = () => {
+const Home = () => {
   return (
     <Container className="home tc">
       <div className="navy tc">

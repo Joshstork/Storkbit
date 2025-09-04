@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
-import { PHASE_DEVELOPMENT_SERVER } from 'next/constants'
  
 const isDev = process.env.NODE_ENV === 'development'
 
 const nextConfig: NextConfig = {
-  assetPrefix: isDev ?  '/proxy/3000' : undefined,
+  assetPrefix: isDev ?  '/proxy/3000' : '/proxy/3000',// : undefined,
   /* config options here */
 };
 

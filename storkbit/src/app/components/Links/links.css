@@ -1,0 +1,48 @@
+.links {
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 4% 0;
+}
+
+.links .icon {
+    margin: 2%;
+    font-size: 35px;
+    transform: 1s;
+    cursor: pointer;
+    color: rgb(255, 177, 177);
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.links {
+    font-size: 20px;
+    margin: 3% 1% 0 0;
+}
+
+.links h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links h6 a{
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+.links h6 a span{
+    cursor: pointer;
+}
+
+.resumeBtn{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  color: #fff;
+}
+
+.resumeBtn:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
+}
