@@ -1,4 +1,6 @@
-export const particleOptions = {
+import { ISourceOptions } from "@tsparticles/engine";
+
+export const particleOptions : ISourceOptions = {
     background: {
         color: {
             value: "#110320ff",
