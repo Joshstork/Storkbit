@@ -1,5 +1,5 @@
-# StorkSoft
-A React App for Stork Soft Business
+# Storkbit
+A React App for Storkbit Business
 
 ## Tailscale
 
@@ -37,5 +37,3 @@ sudo systemctl restart code-server@$USER
 The service is now listening, but only on the Tailscale IP address.
 On your iPad, ensure you've connected to your tailnet and that your server appears in the Tailscale application's list of devices.
 Open a browser and access your server by visiting http://100.x.y.z:8080/, using your IP address.
-
-ip-10-0-0-161.tail839500.ts.net
