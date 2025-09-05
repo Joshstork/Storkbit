@@ -3,39 +3,21 @@
     justify-self: center;
     justify-items: center;
     justify-content: center;
-    padding: 4% 0;
 }
 
 .links .icon {
     margin: 2%;
     font-size: 35px;
-    transform: 1s;
     cursor: pointer;
     color: rgb(255, 177, 177);
 }
 
 .icon:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .links {
     font-size: 20px;
-    margin: 3% 1% 0 0;
-}
-
-.links h6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.links h6 a{
-    margin-top: 3%;
-    text-decoration: none;
-}
-
-.links h6 a span{
-    cursor: pointer;
 }
 
 .resumeBtn{
@@ -47,6 +29,7 @@
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
+  margin: 2%;
 }
 
 .resumeBtn:hover{

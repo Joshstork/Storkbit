@@ -36,14 +36,11 @@ const Links = () => {
             >
               <SiLeetcode size={50} className="icon"/>
             </Link>
-          </a>
-
-          <a>
             <Link role="button" 
             className="resumeBtn"
             target="_blank"
             href={personalData.resume}>
-              <span>Resume</span>
+              <span>CV</span>
               <MdDownload size={20} />
             </Link>
           </a>
