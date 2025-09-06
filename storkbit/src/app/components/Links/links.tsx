@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload, MdEmail, MdPhone } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
+import { IoDocumentText } from "react-icons/io5";
 import { personalData } from "./../../personal-data";
 import "./links.css"
 
@@ -17,6 +18,9 @@ const Links = () => {
             </Link>
             <Link href={'tel:' + personalData.phone}>
               <MdPhone size={50} className="icon"/>
+            </Link>
+            <Link href={personalData.resume}>
+              <IoDocumentText size={50} className="icon"/>
             </Link>
             <Link
               href={personalData.github}
@@ -35,13 +39,6 @@ const Links = () => {
               target='_blank'
             >
               <SiLeetcode size={50} className="icon"/>
-            </Link>
-            <Link role="button" 
-            className="resumeBtn"
-            target="_blank"
-            href={personalData.resume}>
-              <span>CV</span>
-              <MdDownload size={20} />
             </Link>
           </a>
         </Container>
