@@ -1,7 +1,15 @@
 # Storkbit
-A React App for Storkbit Business
+A React App for Storkbit Business to provide contact information.
 
-## Tailscale
+## Next.js React app
+
+Located in the `storkbit` folder, install Node.js and then run `npm install`. It is then deployed using AWS Amplify to storkbit.com
+
+## Infrastructure
+
+Included are cloudformation templates for setting up vpc and ec2 for use with code-server and tailscale to allow development from an iPad.
+
+### Tailscale
 
 To install 
 
