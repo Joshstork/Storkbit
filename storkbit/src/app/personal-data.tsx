@@ -2,7 +2,7 @@ export const personalData = {
   name: "Joshua Storkey",
   email: 'joshuastorkey.work@hotmail.com',
   phone: '+447344106891',
-  github: 'https://github.com/Joshstork/StorkSoft',
+  github: 'https://github.com/Joshstork/Storkbit',
   linkedIn: 'https://www.linkedin.com/in/josh-storkey/',
   twitter: 'https://twitter.com/joshstork',
   leetcode: "https://leetcode.com/Joshstork/",
