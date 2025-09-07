@@ -13,26 +13,27 @@ const Links = () => {
     return (
         <Container className="links tc">
           <a>
-            <Link href={'mailto:' + personalData.email}>
-              <MdEmail size={50} className="icon"/>
-            </Link>
-            <Link href={'tel:' + personalData.phone}>
-              <MdPhone size={50} className="icon"/>
-            </Link>
+            
             <Link href={personalData.resume}>
               <IoDocumentText size={50} className="icon"/>
-            </Link>
-            <Link
-              href={personalData.github}
-              target='_blank'
-            >
-              <BsGithub size={50} className="icon"/>
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
             >
               <BsLinkedin size={50} className="icon"/>
+            </Link>
+            <Link href={'mailto:' + personalData.email}>
+              <MdEmail size={50} className="icon"/>
+            </Link>
+            <Link href={'tel:' + personalData.phone}>
+              <MdPhone size={50} className="icon"/>
+            </Link>
+            <Link
+              href={personalData.github}
+              target='_blank'
+            >
+              <BsGithub size={50} className="icon"/>
             </Link>
             <Link
               href={personalData.leetcode}
