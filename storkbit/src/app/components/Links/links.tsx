@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { MdDownload, MdEmail, MdPhone } from "react-icons/md";
+import { MdEmail, MdPhone } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
 import { IoDocumentText } from "react-icons/io5";
 import { personalData } from "./../../personal-data";
