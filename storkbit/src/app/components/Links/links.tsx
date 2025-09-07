@@ -35,12 +35,6 @@ const Links = () => {
             >
               <BsGithub size={50} className="icon"/>
             </Link>
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-            >
-              <SiLeetcode size={50} className="icon"/>
-            </Link>
           </a>
         </Container>
     );
