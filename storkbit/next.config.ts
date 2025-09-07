@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   distDir: 'build',
   
   // Critical for Amplify deployment
-  output: 'standalone',
+  output: 'export',
 };
 
 export default nextConfig;
