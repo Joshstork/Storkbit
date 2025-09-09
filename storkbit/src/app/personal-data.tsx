@@ -6,5 +6,5 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/josh-storkey/',
   twitter: 'https://twitter.com/joshstork',
   leetcode: "https://leetcode.com/Joshstork/",
-  resume: "https://drive.google.com/uc?export=download&id=1SAd79MXHJkMdUx2Z4XL7ZDMCrrhxhr2H"
+  resume: "https://drive.google.com/uc?export=download&id=1ccK7M0jh1SSUQ3tggivYnZm8R_u2QnIh"
 }
