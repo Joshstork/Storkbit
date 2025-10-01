@@ -1,5 +1,5 @@
 # Storkbit
-A React App for Storkbit Business to provide contact information.
+A React App for Storkbit Business to provide contact information. [storkbit.com](storkbit.com)
 
 ## Next.js React app
 
