@@ -10,7 +10,7 @@ const Home = () => {
           <span>Hi, my name is <span className="name">Joshua Storkey</span></span>
         </p>
         <p className="subTitle tc animate__animated animate__zoomInDown">
-          <span>I&apos;m the <span className="profession">Lead Developer</span> at Storkbit</span>
+          <span>I&apos;m the <span className="profession">Lead Software Engineer</span> at Storkbit</span>
         </p>
       </div>
     </Container>
