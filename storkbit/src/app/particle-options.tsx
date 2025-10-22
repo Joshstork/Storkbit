@@ -55,7 +55,6 @@ export const particleOptions : ISourceOptions = {
         number: {
             density: {
                 enable: true
-                //area: 800,
             },
             value: 80,
         },
@@ -66,7 +65,7 @@ export const particleOptions : ISourceOptions = {
             type: "circle",
         },
         size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 7 },
         },
     },
     detectRetina: true,
