@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Joshua Storkey",
-  email: 'joshuastorkey.work@hotmail.com',
+  email: 'josh@storkbit.com',
   phone: '+447344106891',
   github: 'https://github.com/Joshstork/Storkbit',
   linkedIn: 'https://www.linkedin.com/in/josh-storkey/',
